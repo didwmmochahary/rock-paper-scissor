@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Rubik+Doodle+Triangles&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Rock Paper Scissor</h1>
+  
+    <div class="choices">
+        <div class="choice" id="rock">
+            <img src="./img/rock.png" alt="" id="rockImg">
+            <div class="text-block">
+                <h4 id="rockText"></h4>
+            </div>
+        </div>
+        <div class="choice" id="paper">
+            <img src="./img/paper.png" alt="" id="paperImg">
+            <div class="text-block">
+                <h4 id="paperText"></h4>
+            </div>
+        </div>
+        <div class="choice" id="scissors">
+            <img src="./img/scissors.png" alt="" id="scissorImg">
+            <div class="text-block">
+                <h4 id="scissorText"></h4>
+            </div>
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>AI</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
